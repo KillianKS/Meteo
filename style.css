@@ -1,0 +1,96 @@
+body {
+    background-color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin-top:4rem;
+    width: 22rem;
+    height: 29rem;
+    background-color: rgba(255, 255, 255, 0.445);
+    border-radius: 10px;
+    margin: 4rem auto;
+    padding: 1rem;
+}
+
+.main, .input-part {
+    text-align: center;
+}
+
+input {
+    margin-top: 0.5rem;
+    width: 8.8rem;
+    padding: 0.2rem;
+}
+
+h1 {
+    color: royalblue;
+    margin: 0;
+}
+
+h2, h3 {
+    margin: 1rem;
+}
+
+.degrees {
+    color: black
+}
+.main {
+    text-align: center;
+    height: 1rem;
+}
+
+.weather-icon {
+    width: 12rem;
+}
+
+.btn-location {
+    width: 9.5rem;
+    padding: 8px;
+    border: none;
+    margin-top: 0.5rem;
+    border-radius: 6px;
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-search {
+    width: 9.5rem;
+    padding: 8px;
+    border: none;
+    margin-top: 0.5rem;
+    border-radius: 6px;
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+}
+
+img {
+    transform: scale(0.7);
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.445);
+    border-radius: 10px;
+}
+
+.forecast-item {
+    
+    text-align: center;
+    width: 30%;
+}
+
+.forecast-temp {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.forecast-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
